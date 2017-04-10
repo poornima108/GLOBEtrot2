@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/percentRelativeLayout_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/homeScreenBackgroundColor"
+    tools:context="com.example.poornima.globetrot2.Info">
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        app:layout_heightPercent="90%"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <android.support.percent.PercentRelativeLayout
+            android:id="@+id/prl_row1"
+            android:layout_width="wrap_content"
+            app:layout_heightPercent="30%">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="InfoPostOffice"
+                    android:id="@+id/homescreen_card_info"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:elevation="100dp"
+                    android:background="@color/textColorPrimary"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="#FFFFFFFF">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:weightSum="10">
+
+                            <ImageView
+                                android:id="@+id/imageView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_weight="9"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_info" />
+
+                            <TextView
+                                android:text="POST OFFICE"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:background="#FFFFFF"
+                                android:textSize="15sp"
+                                android:textAlignment="center"
+                                android:layout_marginBottom="2dp"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="InfoPolice"
+                    android:id="@+id/homescreen_card_natcon"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:elevation="100dp"
+                    android:background="@color/textColorPrimary"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="#FFFFFFFF">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:weightSum="10">
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_weight="9"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_natcon" />
+
+                            <TextView
+                                android:text="POLICE"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:background="#FFFFFF"
+                                android:textSize="15sp"
+                                android:textAlignment="center"
+                                android:layout_marginBottom="2dp"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </android.support.percent.PercentRelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:id="@+id/prl_row2"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/prl_row1"
+            app:layout_heightPercent="30%">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="InfoFireStation"
+                    android:id="@+id/homescreen_card_ino"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:elevation="100dp"
+                    android:background="@color/textColorPrimary"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="#FFFFFFFF">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:weightSum="10">
+
+                            <ImageView
+                                android:id="@+id/imageView28"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_weight="9"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_register" />
+
+                            <TextView
+                                android:text="FIRE STATION"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:background="#FFFFFF"
+                                android:textSize="15sp"
+                                android:textAlignment="center"
+                                android:layout_marginBottom="2dp"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="InfoEmbssy"
+                    android:id="@+id/homescreen_card_ntcon"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:elevation="100dp"
+                    android:background="@color/textColorPrimary"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="#FFFFFFFF">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:weightSum="10">
+
+                            <ImageView
+                                android:id="@+id/imageVew3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_weight="9"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_networking" />
+
+                            <TextView
+                                android:text="EMBASSY"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:background="#FFFFFF"
+                                android:textSize="15sp"
+                                android:textAlignment="center"
+                                android:layout_marginBottom="2dp"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </android.support.percent.PercentRelativeLayout>
+        <android.support.percent.PercentRelativeLayout
+            android:id="@+id/prl_row3"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/prl_row2"
+            app:layout_heightPercent="30%">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="InfoCabServices"
+                    android:id="@+id/homescreen_crd_ino"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:elevation="100dp"
+                    android:background="@color/textColorPrimary"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="#FFFFFFFF">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:weightSum="10">
+
+                            <ImageView
+                                android:id="@+id/imagekView28"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_weight="9"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_contact_info" />
+
+                            <TextView
+                                android:text="CAB SERVICE"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:background="#FFFFFF"
+                                android:textSize="15sp"
+                                android:textAlignment="center"
+                                android:layout_marginBottom="2dp"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="InfoHospital"
+                    android:id="@+id/homescreen_cad_ntcon"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:elevation="100dp"
+                    android:background="@color/textColorPrimary"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="#FFFFFFFF">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:weightSum="10">
+
+                            <ImageView
+                                android:id="@+id/imgeVew3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_weight="9"
+                                android:padding="2dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_venue_travel" />
+
+                            <TextView
+                                android:text="HOSPITAL"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:background="#FFFFFF"
+                                android:textSize="15sp"
+                                android:textAlignment="center"
+                                android:layout_marginBottom="2dp"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </android.support.percent.PercentRelativeLayout>
+
+    </android.support.percent.PercentRelativeLayout>
+
+
+
+    <!-- <android.support.v7.widget.RecyclerView
+          android:id="@+id/recyclerView_home_screen"
+          android:layout_width="match_parent"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentStart="true"
+          app:layout_heightPercent="60%"></android.support.v7.widget.RecyclerView> -->
+
+</android.support.percent.PercentRelativeLayout>

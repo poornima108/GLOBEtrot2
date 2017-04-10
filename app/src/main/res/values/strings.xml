@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GLOBEtrot</string>
+
+    <string-array name="persons_name">
+        <item>"HOTELS"</item>
+        <item>"PLACES"</item>
+        <item>"RESTAURANTS"</item>
+        <item>"INFO"</item>
+
+
+    </string-array>
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+    <string-array name="info_name">
+        <item>"HOSPITAL"</item>
+        <item>"PHARMACY"</item>
+        <item>"POLICE"</item>
+        <item>"CURRENCY"</item>
+        <item>"WEATHER"</item>
+        <item>"PETROL"</item>
+    </string-array>
+    <string name="auth_failed">AUTH FAILED</string>
+    <string name="title_activity_maps_hotel">Map</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "719204352056",
+    "firebase_url": "https://globetrot-1e21d.firebaseio.com",
+    "project_id": "globetrot-1e21d",
+    "storage_bucket": "globetrot-1e21d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719204352056:android:f0a679c6a452e0ed",
+        "android_client_info": {
+          "package_name": "com.example.poornima.globetrot2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719204352056-1dris3ajhbrdfe6esdk0iu07lmtkaqvt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.poornima.globetrot2",
+            "certificate_hash": "da535c236ae90d77f3b43de1b9ee9f2307eed410"
+          }
+        },
+        {
+          "client_id": "719204352056-6tk1rtbs8rolv9agdqbtdfgm633igaod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABseHpFbAvjf4SbYUbW_n5Me_QBzfzS_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719204352056-6tk1rtbs8rolv9agdqbtdfgm633igaod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
